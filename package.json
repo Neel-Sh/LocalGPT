@@ -13,7 +13,7 @@
   "description": "Local web chat with Ollama and SQLite conversation storage.",
   "dependencies": {
     "axios": "^1.7.9",
-    "body-parser": "^1.20.3",
+    "body-parser": "^2.4.0",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "multer": "^1.4.5-lts.1",
