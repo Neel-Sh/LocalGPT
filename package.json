@@ -1,14 +1,16 @@
 {
   "name": "localgpt",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "check": "node --check server.js && node --check db.js && node --check public/script.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Local web chat with Ollama and SQLite conversation storage.",
   "dependencies": {
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
