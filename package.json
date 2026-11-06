@@ -12,9 +12,9 @@
   "license": "ISC",
   "description": "Local web chat with Ollama and SQLite conversation storage.",
   "dependencies": {
-    "axios": "^1.7.9",
+    "axios": "^1.21.0",
     "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
+    "cors": "^2.8.6",
     "express": "^4.21.2",
     "multer": "^1.4.5-lts.1",
     "sqlite3": "^5.1.7"
